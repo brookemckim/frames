@@ -1,6 +1,16 @@
 # Frames
 
-TODO: Write a gem description
+Uses ffprobe to analyze video files frame by frame. 
+
+Use Cases:
+
+* List all P/B/I frames of a video file.
+* List all key frames of a video file.
+* Analyze DTS/PTS of each frame.
+
+## Prerequisites
+
+[ffprobe](http://ffmpeg.org/ffprobe.html)
 
 ## Installation
 
@@ -18,7 +28,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+# Point the analyzer to your video file.
+frame_analyzer = Frames::Anaylzer.new("/Users/bmckim/Desktop/sample.avi")
+
+# Get an Array of each frame.
+frame.analyzer.frames
+
+# Want the raw ffprobe output?
+frame.probe
+```
 
 ## Contributing
 
