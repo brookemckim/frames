@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Frames::VERSION
   gem.authors       = ["brookemckim"]
   gem.email         = ["brooke.mckim@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Uses ffprobe to retrieve metadata about each frame of a video.}
+  gem.summary       = %q{Analyze video metadata frame by frame.}
+  gem.homepage      = "http://github.com/brookemckim/frames"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
