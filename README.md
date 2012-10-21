@@ -33,7 +33,7 @@ Or install it yourself as:
 frame_analyzer = Frames::Anaylzer.new("/Users/bmckim/Desktop/sample.avi")
 
 # Get an Array of each frame.
-frame.analyzer.frames
+frame_analyzer.frames
 
 # Want the raw ffprobe output?
 frame.probe
