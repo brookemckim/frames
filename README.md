@@ -1,5 +1,9 @@
 # Frames
 
+[![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/brookemckim/frames)
+[![Build Status](https://travis-ci.org/[brookemckim]/[frames].png)](https://travis-ci.org/[brookemckim]/[frames])
+
+
 Uses ffprobe to analyze video files frame by frame. 
 
 Use Cases:
