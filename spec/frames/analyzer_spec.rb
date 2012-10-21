@@ -10,9 +10,8 @@ describe Frames::Analyzer do
       @analyzer.stubs(:constructor).returns(constructor)
     end
 
-    describe '#analyze' do
+    describe '#frames' do
       it 'sets frames to value from the frame constructor' do
-        @analyzer.analyze.must_equal 'framesgohere'
         @analyzer.frames.must_equal 'framesgohere'
       end
     end
